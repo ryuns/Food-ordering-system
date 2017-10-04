@@ -1,0 +1,22 @@
+﻿<Window x:Class="ACW2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ACW2"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight">
+
+    <StackPanel Orientation="Vertical">
+        <Label x:Name="label" Content="Main Menu" FontSize="20"/>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5">
+            <StackPanel Orientation="Vertical">
+                <Button x:Name="inventoryButton" Content="1. Inventory" Margin="5" Width="120" Click="inventoryButton_Click"/>
+                <Button x:Name="foodMenuButton" Content="2. Food Menu" Margin="5" Width="120" Click="foodMenuButton_Click"/>
+                <Button x:Name="newOrderButton" Content="3. New Order" Margin="5" Width="120" Click="newOrderButton_Click"/>
+                <Button x:Name="completedOrdersButton" Content="4. Completed Orders" Margin="5" Width="120" Click="completedOrdersButton_Click"/>
+            </StackPanel>
+        </Border>
+        <Button x:Name="quitButton" Content="Quit" Margin="5" Width="120" Click="quitButton_Click" />
+    </StackPanel>
+</Window>

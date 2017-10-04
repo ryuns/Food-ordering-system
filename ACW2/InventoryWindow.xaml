@@ -1,0 +1,25 @@
+﻿<Window x:Class="ACW2.InventoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ACW2"
+        mc:Ignorable="d"
+        Title="InventoryWindow" SizeToContent="WidthAndHeight">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+        <Label x:Name="label" Content="Inventory" HorizontalAlignment="Left" Margin="20,0,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Label x:Name="label1" Content="Category" Margin="5"/>
+            <ComboBox x:Name="categoryComboBox" Margin="5" Width="100" SelectionChanged="categoryComboBox_SelectionChanged"/>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <Label x:Name="label3" Content="Category, Name, Cost per Unit, Quantity in Stock" Margin="5, 5, 0, 0" Padding="0" FontSize="9" FontStyle="Italic"/>
+            <ListBox x:Name="categoryList" Height="200" Margin="5, 0, 5, 5" SelectionMode="Single" SelectionChanged="categoryList_SelectionChanged"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Label x:Name="label2" Content="Quantity in stock" Margin="5"/>
+            <TextBox x:Name="stockLevelTextBox" Height="24" Margin="5" TextWrapping="Wrap" Text="" MinWidth="80"/>
+        </StackPanel>
+        <Button x:Name="updateButton" Content="Update" HorizontalAlignment="Right" Margin="5" VerticalAlignment="Top" Width="80" Height="24" Click="updateButton_Click"/>
+    </StackPanel>
+</Window>

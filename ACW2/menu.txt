@@ -1,0 +1,26 @@
+pizza, margherita, regular, 4.40, dough, 1.00, sauce, 0.25, mozzarella, 0.75
+pizza, margherita, large, 5.40, dough, 1.44, sauce, 0.36, mozzarella, 1.08
+pizza, margherita, extra-large, 7.50, dough, 1.79, sauce, 0.45, mozzarella, 1.34
+pizza, pepperoni, regular, 5.00, dough, 1.00, sauce, 0.25, mozzarella, 0.75, pepperoni, 2.0
+pizza, pepperoni, large, 6.00, dough, 1.44, sauce, 0.36, mozzarella, 1.08, pepperoni, 2.88
+pizza, pepperoni, extra-large, 10.00, dough, 1.79, sauce, 0.45, mozzarella, 1.342, pepperoni, 3.58
+pizza, hawaiian, regular, 5.50, dough, 1.00, sauce, 0.25, mozzarella, 0.75, ham, 1.50, pineapple, 0.5
+pizza, hawaiian, large, 6.50, dough, 1.44, sauce, 0.36, mozzarella, 1.08, ham, 2.16, pineapple, 0.72
+pizza, hawaiian, extra-large, 11.00, dough, 1.79, sauce, 0.45, mozzarella, 1.34, ham, 2.69, pineapple, 0.90
+pizza, vegetable, regular, 5.40, dough, 1.00, sauce, 0.25, mozzarella, 0.75, olives, 0.75, spinach, 0.25, mushrooms, 1.00
+pizza, vegetable, large, 6.40, dough, 1.44, sauce, 0.36, mozzarella, 1.08, olives, 1.08, spinach, 0.36, mushrooms, 1.44
+pizza, vegetable, extra-large, 10.00, dough, 1.79, sauce, 0.45, mozzarella, 1.342, olives, 1.34, spinach, 0.45, mushrooms, 1.79
+pizza, meaty, regular, 5.50, dough, 1.00, sauce, 0.25, mozzarella, 0.75, chicken, 0.50, beef, 0.50, ham, 0.25, pepperoni, 0.25
+pizza, meaty, large, 6.50, dough, 1.44, sauce, 0.36, mozzarella, 1.08, chicken, 0.72, beef, 0.72, ham, 0.36, pepperoni, 0.36
+pizza, meaty, extra-large, 13.00, dough, 1.79, sauce, 0.45, mozzarella, 1.34, chicken, 1.08, beef, 1.08, ham, 0.45, pepperoni, 0.45
+burger, beef, regular, 2.30, bun, 1, beef patty, 1
+burger, beef, large, 3.40, bun, 1, beef patty, 2
+burger, chicken, regular, 3.00, bun, 1, chicken fillet, 1
+burger, chicken, large, 4.10, bun, 1, chicken fillet, 2
+burger, vegetarian, regular, 2.50, bun, 1, falafel, 1
+burger, vegetarian, large, 3.60, bun, 1, falafel, 2
+sundry, chips, regular, 1.20, chips, 1
+sundry, onion-rings, regular, 1.70, onion rings, 1
+sundry, coleslaw, regular, 1.00, coleslaw, 1
+sundry, baked-beans, regular, 0.80, baked-beans , 1
+sundry, garlic-bread, regular, 2.70, garlic bread, 1

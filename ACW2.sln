@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACW2", "ACW2\ACW2.csproj", "{F7A0147C-7B24-442E-B095-1DA164C097AF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{63A2F9BB-5051-47EE-BCE6-420BC9D2B476} = {63A2F9BB-5051-47EE-BCE6-420BC9D2B476}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodOrderingSystemClasses", "FoodOrderingSystemClasses\FoodOrderingSystemClasses.csproj", "{63A2F9BB-5051-47EE-BCE6-420BC9D2B476}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7A0147C-7B24-442E-B095-1DA164C097AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A0147C-7B24-442E-B095-1DA164C097AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A0147C-7B24-442E-B095-1DA164C097AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A0147C-7B24-442E-B095-1DA164C097AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A2F9BB-5051-47EE-BCE6-420BC9D2B476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A2F9BB-5051-47EE-BCE6-420BC9D2B476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A2F9BB-5051-47EE-BCE6-420BC9D2B476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A2F9BB-5051-47EE-BCE6-420BC9D2B476}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
